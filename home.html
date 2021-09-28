@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Portal Web Colaborador - Home</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+			<h1><a href="home.html"><img src="imagens/portal1.png" alt="Logo do portal Web"></a></h1>
+
+				<nav>
+					<li><a href="consultacolab.html">Consulta Colaborador</a></li>
+					<li><a href="consultagastos.html">Consulta Gastos</a></li>
+					
+				</nav>
+			</div>
+		</header>
+
+		<main>
+
+			<h2 class="titulo-formulario">Cadastro de funcionários</h2>
+			<form>
+				<label for="nomesobrenome">Nome e Sobrenome</label>
+				<input type="text" id="nomesobrenome" required class="input-padrao">
+
+				<label for="cpf">CPF</label>
+				<input type="text" id="cpf" required class="input-padrao">
+
+				<label for="pis">PIS</label>
+				<input type="text" id="pis" required class="input-padrao">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao">
+
+				<label for="email">Email</label>
+				<input type="email" id="email" required class="input-padrao">
+
+				<label for="salario">Salário</label>
+				<input type="text" id="salario" required class="input-padrao">
+
+				<label for="dataadmissao">Data de Admissão</label>
+				<input type="date" id="dataadmissao">
+								
+
+				<fieldset class="genero">
+					<legend>Gênero:</legend>
+					<label for="radio-sexo"><input type="radio" name="sexo" value="m" id="radio-m">M</label>
+					<label for="radio-sexo"><input type="radio" name="sexo" value="f" id="radio-f">F</label>
+				</fieldset>
+
+				<label></label>
+
+				<input type="submit" value="Enviar formulário" class="enviar">
+			</form>
+
+		</main>
+
+		<footer>
+			<img src="imagens/portal1.png" alt="Logo do portal Web" class="imagem-final">
+			<p class="copyright">&copy; Copyright Portal Werb - Maitê</p>
+			
+		</footer>
+	</body>
+</html>
