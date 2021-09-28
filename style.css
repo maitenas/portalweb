@@ -33,52 +33,14 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-.produtos {
-	width: 940px;
-	margin: 0 auto;
-	padding: 50px 0;
-}
-
-.produtos li {
-	display: inline-block;
-	text-align: center;
-	width: 30%;
-	vertical-align: top;
-	margin: 0 1.5%;
-	padding: 30px 20px;
-	box-sizing: border-box;
-	border:  2px solid #000000;
-	border-radius:  10px;
-}
-
-.produtos li:hover {
-	border-color: #C19C78;
-}
-
-.produtos li:active {
-	border-color: #088C19;
-}
-
-.produtos li:hover h2 {
-	font-size: 34px;
-}
 
 .titulo-formulario {
 	font-size: 30px;
 	font-weight: bold;
-	margin: 10px 0;
+	margin: 10px 0 20px;
 
 }
 
-.produto-descricao {
-	font-size: 18px;
-}
-
-.produto-preco {
-	font-size: 22px;
-	font-weight: bold;
-	margin-top: 10px;
-}
 
 footer {
 	text-align: center;
@@ -156,8 +118,12 @@ thead {
 
 td, th {
 	border: 1px solid #000000;
-	padding: 8px 15px;
+	padding: 10px 6px;
 
+}
+
+td {
+	font-size: 14px;
 }
 
 .genero {
@@ -167,4 +133,13 @@ td, th {
 }
 .genero label {
 	display: inline;
+}
+
+.consulta {
+	padding: 0 0 70px 0;
+
+}
+
+.nomeconsulta {
+	font-weight: bold;
 }
