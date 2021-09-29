@@ -150,6 +150,12 @@ td {
 
 }
 
+span {
+	font-size: 18px;
+	font-weight: bold;
+
+}
+
 .mes {
 	width: 20%;
 	margin: 30px 5px;
@@ -163,4 +169,6 @@ td {
 	padding: 5px;
 	font-weight: bold;
 	font-size: 15px;
+	margin: 0 50px 0 0;
+
 }
